@@ -12,4 +12,4 @@ This repository will have a folder for each proposed _canonical device_ (a devic
 - The `<emulator_name>.ini` file 
 - The `<emulator_name>` folder
 
-Let's see if we can do something useful.
+Let's see if we can do something useful of it.
