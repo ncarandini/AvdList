@@ -15,5 +15,5 @@ This repository will have a folder for each proposed _canonical device_ (a devic
 ## Contribution
 New and improved virtual device can be proposed but using issues.
 Issues can also be used to discuss about (as an example):
-- How to find the best set of AVDs (see issue #1)
+- How to find the best set of AVDs (see issue [#1](https://github.com/ncarandini/AvdList/issues/1))
 - The value and functionalities of configuration parameters
