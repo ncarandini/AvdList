@@ -12,8 +12,16 @@ This repository will have a folder for each proposed _canonical device_ (a devic
 - The `<emulator_name>.ini` file 
 - The `<emulator_name>` folder
 
+# Device List
+Actually consist of only one device, to test portability from one PC to another:
+
+- Samsung GT-S7390
+
 ## Contribution
 New and improved virtual device can be proposed but using issues.
 Issues can also be used to discuss about (as an example):
 - How to find the best set of AVDs (see issue [#1](https://github.com/ncarandini/AvdList/issues/1))
 - The value and functionalities of configuration parameters
+
+# Useful links
+To find the tech specs of a model I use the [GSM ARENA - Phone Finder](https://www.gsmarena.com/search.php3?)
