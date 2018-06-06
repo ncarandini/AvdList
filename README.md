@@ -8,8 +8,12 @@ I'd like to have a set of Android virtual devices that represent the combination
 When using the Android Device Manager of Visual Studio 2017, each device specification is stored in `C:\Users\<user_name>\.android\avd` folder and is made of one `<emulator_name>.ini` file and a `<emulator_name>` folder.
 
 This repository will have a folder for each proposed _canonical device_ (a device that represent all the products with almost same screen sizes and resolution) with three things in it:
-- A readme file with all the settings needed to replicate the virtual device from scratch with Android Device Manager
+- A readme file with all the settings (and related notes) needed to replicate the virtual device from scratch with Android Device Manager
 - The `<emulator_name>.ini` file 
 - The `<emulator_name>` folder
 
-Let's see if we can do something useful of it.
+## Contribution
+New and improved virtual device can be proposed but using issues.
+Issues can also be used to discuss about (as an example):
+- How to find the best set of AVDs (see issue #1)
+- The value and functionalities of configuration parameters
