@@ -12,6 +12,8 @@ This repository will have a folder for each proposed _canonical device_ (a devic
 - The `<emulator_name>.ini` file 
 - The `<emulator_name>` folder with only the needed files to show up in the device list of Android Device Manager
 
+I've decided to omit `sdcard.img`, `sdcard.img.qcow2`, `system.img.qcow2` and `userdata.img` files to save more than 650MB because I've found that they're not needed to import the device specifications as they're automatically recreated by the Android Device Manager.
+
 After cloning the repo in your PC, follow these steps to add a virtual device specification into your Android Device Manager:
 1. Open the folder of the repo cantaining the `<emulator_name>.ini` file and the `<emulator_name>` folder
 2. Copy the `<emulator_name>.ini` file and the `<emulator_name>` folder and paste them in `C:\Users\<your_username>\.android\avd` folder
