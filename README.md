@@ -15,7 +15,7 @@ This repository will have a folder for each proposed _canonical device_ (a devic
 # Device List
 Actually consist of only one device, to test portability from one PC to another:
 
-- Samsung GT-S7390
+- Samsung Galaxy Trend Lite S7390
 
 ## Contribution
 New and improved virtual device can be proposed but using issues.
