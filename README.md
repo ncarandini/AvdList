@@ -17,7 +17,7 @@ After cloning the repo in your PC, follow these steps to add a virtual device sp
 2. Copy the `<emulator_name>.ini` file and the `<emulator_name>` folder and paste them in `C:\Users\<your_username>\.android\avd` folder
 3. Open the Android Device Manager from Visual Studio 2017 and you should see the new entry in the device list
 
-If the definded system image is not already present in your machine, you'll se an error message in the start button. You can easily solve it with a right click on the device row, selecting the `<emulator_name>.ini` command from the pulldown menu:
+If the definded system image is not already present in your machine, you'll se an error message in the start button. You can easily solve it with a right click on the device row, selecting the `Download System Image` command from the pulldown menu:
 
 ![image](https://user-images.githubusercontent.com/139274/41085825-5763b54e-6a38-11e8-8147-4edbaf7fe232.png)
 
