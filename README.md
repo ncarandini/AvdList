@@ -5,12 +5,23 @@ This repository contains a list of Android Virtual Device Specification for Goog
 I'd like to have a set of Android virtual devices that represent the combination of screen sizes and resolutions that are most used by owners of real devices out there, and I thought that this could be built and shared with many other Xamarin/Android developers.
 
 ## Usage
-When using the Android Device Manager of Visual Studio 2017, each device specification is stored in `C:\Users\<user_name>\.android\avd` folder and is made of one `<emulator_name>.ini` file and a `<emulator_name>` folder.
+When using the Android Device Manager of Visual Studio 2017, each device specification is stored in `C:\Users\<username>\.android\avd` folder and is made of one `<emulator_name>.ini` file and a `<emulator_name>` folder.
 
 This repository will have a folder for each proposed _canonical device_ (a device that represent all the products with almost same screen sizes and resolution) with three things in it:
 - A readme file with all the settings (and related notes) needed to replicate the virtual device from scratch with Android Device Manager
 - The `<emulator_name>.ini` file 
-- The `<emulator_name>` folder
+- The `<emulator_name>` folder with only the needed files to show up in the device list of Android Device Manager
+
+After cloning the repo in your PC, follow these steps to add a virtual device specification into your Android Device Manager:
+1. Open the folder of the repo cantaining the `<emulator_name>.ini` file and the `<emulator_name>` folder
+2. Copy the `<emulator_name>.ini` file and the `<emulator_name>` folder and paste them in `C:\Users\<your_username>\.android\avd` folder
+3. Open the Android Device Manager from Visual Studio 2017 and you should see the new entry in the device list
+
+If the definded system image is not already present in your machine, you'll se an error message in the start button. You can easily solve it with a right click on the device row, selecting the `<emulator_name>.ini` command from the pulldown menu:
+
+![image](https://user-images.githubusercontent.com/139274/41085825-5763b54e-6a38-11e8-8147-4edbaf7fe232.png)
+
+When finished, you should be able to start the virtual device.
 
 # Device List
 Actually consist of only one device, to test portability from one PC to another:
